@@ -53,7 +53,7 @@ class AuthenticatedSessionController extends Controller
             }
         }
         else{
-            return redirect()->route('login')->with('error', "Wrong credentials");
+            return redirect()->route('login')->with('error', "Wrong credentials..! please try again");
         }
         
     }
